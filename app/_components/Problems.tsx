@@ -6,7 +6,7 @@ function Problems() {
   return (
     <section className="py-6 md:py-20 relative">
       <div className="container mx-auto px-6">
-        <div className="bg-white/70 backdrop-blur-xl rounded-3xl px-5 md:px-12 pb-6 md:pb-12 p-12  border border-gray-200 shadow-xl">
+        <div className="bg-white/70 backdrop-blur-xl rounded-3xl px-5 md:px-12 pb-6 md:pb-12 p-12   ">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left content */}
             <div className="animate-fade-in">
