@@ -8,7 +8,7 @@ function Hero() {
         <div className="absolute bottom-10 right-10 w-40 h-40 md:bottom-20 md:right-20 md:w-96 md:h-96 bg-blue-500 rounded-full filter blur-3xl opacity-20 animate-pulse animation-delay-2000" />
       </div>
 
-      <div className="relative z-10 container mx-auto px-6 py-20">
+      <div className="relative z-10 container mx-auto px-6 py-20 md:pb-6">
         <div className="text-center">
           <h1 className="text-5xl md:text-8xl font-extrabold bg-gradient-to-r from-purple-700 to-cyan-500 bg-clip-text text-transparent mb-6">
             Never Run Out of
