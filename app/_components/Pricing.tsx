@@ -21,7 +21,7 @@ function Pricing() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <div className="bg-gray-900 rounded-2xl p-8 border border-gray-700">
+          <div className="bg-gray-900 rounded-2xl p-8 border border-gray-700 flex flex-col">
             <h3 className="text-2xl font-bold text-white mb-2">Starter</h3>
             <p className="text-gray-400 mb-6">For small businesses</p>
             <div className="text-4xl font-bold text-white mb-6">
@@ -41,12 +41,14 @@ function Pricing() {
                 Email support
               </li>
             </ul>
-            <button className="w-full py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition">
-              Start Free Trial
-            </button>
+            <div className="mt-auto">
+              <button className="w-full py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition">
+                Start Free Trial
+              </button>
+            </div>
           </div>
 
-          <div className="bg-gradient-to-br duration-1000 from-purple-900 to-blue-900 rounded-2xl p-8 border-2 border-purple-500 scale-105">
+          <div className="bg-gradient-to-br duration-1000 from-purple-900 to-blue-900 rounded-2xl p-8 border-2 border-purple-500 scale-105 flex flex-col">
             <div className="bg-purple-500 text-white animate-bounce text-sm font-bold px-3 py-1 rounded-full inline-block mb-4">
               MOST POPULAR
             </div>
@@ -73,12 +75,14 @@ function Pricing() {
                 API access
               </li>
             </ul>
-            <button className="w-full py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg hover:shadow-xl transition">
-              Start Free Trial
-            </button>
+            <div className="mt-auto">
+              <button className="w-full py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg hover:shadow-xl transition">
+                Start Free Trial
+              </button>
+            </div>
           </div>
 
-          <div className="bg-slate-900 rounded-2xl p-8 border border-gray-700">
+          <div className="bg-slate-900 rounded-2xl p-8 border border-gray-700 flex flex-col">
             <h3 className="text-2xl font-bold text-white mb-2">Enterprise</h3>
             <p className="text-gray-400 mb-6">For large operations</p>
             <div className="text-4xl font-bold text-white mb-6">Custom</div>
@@ -100,9 +104,11 @@ function Pricing() {
                 Custom integrations
               </li>
             </ul>
-            <button className="w-full py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition">
-              Contact Sales
-            </button>
+            <div className="mt-auto">
+              <button className="w-full py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition">
+                Contact Sales
+              </button>
+            </div>
           </div>
         </div>
       </div>
