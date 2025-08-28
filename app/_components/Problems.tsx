@@ -1,47 +1,58 @@
-'use client'
-import React from 'react'
-import { AlertCircle } from 'lucide-react'
+"use client";
+import React from "react";
+import { AlertCircle } from "lucide-react";
 
 function Problems() {
   return (
-    <section className="py-20 relative">
+    <section className="py-6 md:py-20 relative">
       <div className="container mx-auto px-6">
-        <div className="bg-white/70 backdrop-blur-xl rounded-3xl p-12 border border-gray-200 shadow-xl">
+        <div className="bg-white/70 backdrop-blur-xl rounded-3xl px-5 md:px-12 pb-6 md:pb-12 p-12  border border-gray-200 shadow-xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left content */}
             <div className="animate-fade-in">
-              <h2 className="text-4xl font-extrabold gradient-text mb-6">
+              <h2 className="text-4xl font-extrabold gradient-text mb-6 text-center md:text-left">
                 The Hidden Business Killer
               </h2>
               <p className="text-gray-700 mb-4 text-lg">
-                <span className="text-pink-500 font-bold">82% of businesses fail </span> 
+                <span className="text-pink-500 font-bold">
+                  82% of businesses fail{" "}
+                </span>
                 due to cash flow problems, not lack of profitability.
               </p>
               <p className="text-gray-600 mb-6">
-                You might have £50,000 coming next month, but if payroll is tomorrow and 
-                you&lsquo;re short £5,000, you&lsquo;re facing disaster. Traditional accounting shows you 
-                the past. Bank balances show you today. Neither shows you tomorrow.
+                You might have £50,000 coming next month, but if payroll is
+                tomorrow and you&lsquo;re short £5,000, you&lsquo;re facing
+                disaster. Traditional accounting shows you the past. Bank
+                balances show you today. Neither shows you tomorrow.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <AlertCircle className="text-pink-500" size={20} />
-                  <span className="text-gray-700">Surprise expenses destroy planning</span>
+                  <span className="text-gray-700">
+                    Surprise expenses destroy planning
+                  </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <AlertCircle className="text-purple-500" size={20} />
-                  <span className="text-gray-700">Money tied up in wrong places</span>
+                  <span className="text-gray-700">
+                    Money tied up in wrong places
+                  </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <AlertCircle className="text-cyan-500" size={20} />
-                  <span className="text-gray-700">Emergency loans eat profits</span>
+                  <span className="text-gray-700">
+                    Emergency loans eat profits
+                  </span>
                 </div>
               </div>
             </div>
 
             {/* Right visual */}
             <div className="relative animate-slide-up">
-              <div className="bg-white/80 backdrop-blur-lg rounded-2xl p-8 border border-gray-200 shadow-lg">
-                <h3 className="gradient-text font-bold mb-4">Without Trinity:</h3>
+              <div className="bg-white/80 backdrop-blur-lg rounded-2xl px-4 md:px-8 p-8 border border-gray-200 shadow-lg">
+                <h3 className="gradient-text font-bold mb-4">
+                  Without Trinity:
+                </h3>
                 <div className="space-y-4">
                   <div className="bg-cyan-100/50 rounded-lg p-4">
                     <div className="text-sm text-gray-500">Monday</div>
@@ -65,23 +76,22 @@ function Problems() {
             </div>
           </div>
         </div>
-      </div>  
+      </div>
     </section>
-  )
+  );
 }
 
-export default Problems
-
+export default Problems;
 
 // 'use client'
 // import React from 'react'
-// import { 
+// import {
 //   AlertCircle,
 // } from 'lucide-react';
 
 // function Problems() {
 //   return (
-//     <section className="py-20 relative">
+//     <section className="py-6 md:py-20 relative">
 //         <div className="container mx-auto px-6">
 //           <div className="bg-gradient-to-br from-red-500/10 to-orange-500/10 backdrop-blur rounded-3xl p-12 border border-red-500/20">
 //             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -90,12 +100,12 @@ export default Problems
 //                   The Hidden Business Killer
 //                 </h2>
 //                 <p className="text-gray-300 mb-4 text-lg">
-//                   <span className="text-red-400 font-bold">82% of businesses fail</span> due to cash flow problems, 
+//                   <span className="text-red-400 font-bold">82% of businesses fail</span> due to cash flow problems,
 //                   not lack of profitability.
 //                 </p>
 //                 <p className="text-gray-300 mb-6">
-//                   You might have £50,000 coming next month, but if payroll is tomorrow and you&lsquo;re short £5,000, 
-//                   you&lsquo;re facing disaster. Traditional accounting shows you the past. 
+//                   You might have £50,000 coming next month, but if payroll is tomorrow and you&lsquo;re short £5,000,
+//                   you&lsquo;re facing disaster. Traditional accounting shows you the past.
 //                   Bank balances show you today. Neither shows you tomorrow.
 //                 </p>
 //                 <div className="space-y-3">
