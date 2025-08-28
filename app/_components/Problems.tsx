@@ -10,7 +10,7 @@ function Problems() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left content */}
             <div className="animate-fade-in">
-              <h2 className="text-4xl font-extrabold gradient-text mb-6 text-center md:text-left">
+              <h2 className="text-4xl font-extrabold gradient-text mb-6 text">
                 The Hidden Business Killer
               </h2>
               <p className="text-gray-700 mb-4 text-lg">

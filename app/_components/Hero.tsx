@@ -12,7 +12,7 @@ function Hero() {
         <div className="text-center">
           <h1 className="text-5xl md:text-8xl font-extrabold bg-gradient-to-r from-purple-700 to-cyan-500 bg-clip-text text-transparent mb-6">
             Never Run Out of
-            <span className="block bg-gradient-to-r from-cyan-500 to-purple-700 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-cyan-500 to-purple-700 bg-clip-text text-transparent pb-4">
               Cash Again
             </span>
           </h1>
